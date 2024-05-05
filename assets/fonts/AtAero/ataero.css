@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "AtAero";
+    src: url("../AtAero/AtAero-Retina.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuperAero";
+    src: url("../AtAero/AtAero-Super.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}

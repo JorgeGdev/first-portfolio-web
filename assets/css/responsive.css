@@ -1,0 +1,307 @@
+@media (width < 1000px) {
+
+    .header__navbar {
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+    }
+
+    .header__image {
+        width: 25%;
+    }
+
+    .header__logo {
+        width: 70%;
+    }
+
+    .buttons__header {
+        width: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu__items {
+        width: 18rem;
+    }
+
+
+
+    .generalcard {
+        width: 350px;
+        height: 350px;
+    }
+
+    .title__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .title__logo {
+        width: 50%;
+    }
+
+    .title__text {
+        width: 100%;
+        text-align: center;
+        font-size: 15rem;
+        margin: 0;
+    }
+
+    .title__content {
+        width: 100%;
+    }
+
+
+
+
+
+    .general__animation {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .animation__container {
+        text-align: center;
+    }
+
+
+
+
+
+    .projects__container {
+        gap: 4rem;
+    }
+
+
+    .projects__card {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .projects__pic {
+        background-size: cover;
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .projects__card:hover button {
+        transform: scale(10);
+        opacity: 0.5;
+    }
+
+    .project1__image1,
+    .project1__image2,
+    .project1__image3,
+    .project1__image4,
+    .project1__image5,
+    .project1__image6,
+    .project1__image7,
+    .project1__image8 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 1.5rem 1rem;
+        padding: 1rem 0.5rem;
+        border: 1px solid var(--clear2-color);
+        border-radius: 12px;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (width < 720px) {
+
+
+    .header__image {
+        display: none;
+    }
+
+    .buttons__header {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+
+
+
+    .general__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .generalcard {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+
+
+
+    .projects__layout {
+
+        padding: 5rem 1rem;
+
+
+    }
+
+
+
+
+
+    .projects__container {
+        gap: 3rem;
+    }
+
+
+    .projects__card {
+        position: relative;
+        width: 100px;
+        height: 80px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .projects__pic {
+        background-size: cover;
+        width: 100px;
+        height: 80px;
+
+    }
+
+    .projects__card:hover .projects__pic {
+        filter: grayscale(0);
+        width: 9rem;
+        transform: scale(1.1);
+    }
+
+    .projects__card:hover button {
+        transform: scale(12);
+        opacity: 0.5;
+    }
+
+
+
+    .lab__container {
+        transform: rotateY(calc(var(--i)* 45deg)) translateZ(200px);
+
+    }
+
+
+    .lab__box {
+        position: relative;
+        width: 135px;
+        height: 202px;
+    }
+
+    .projects__title,
+    .projects__info {
+        color: yellow;
+        font-weight: bold;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (width < 600px) {
+
+
+    .contact__container {
+        flex-direction: column;
+
+    }
+}
+
+
+
+
+
+@media (width < 503px) {
+
+
+    .generalcard {
+        width: 180px;
+        height: 180px;
+        text-align: center;
+
+    }
+
+
+    .title__text {
+        width: 80%;
+        margin-right: 55px;
+        text-align: center;
+        font-size: 10rem;
+    }
+
+
+
+    .contact__data {
+        overflow: scroll;
+    }
+
+
+    section.bottom {
+
+        gap: 1rem;
+    }
+
+    .projects__card:hover .projects__pic {
+        filter: grayscale(0);
+        width: 7rem;
+        transform: scale(1.1);
+    }
+
+    .projects__card:hover button {
+        transform: scale(8);
+        opacity: 0.5;
+    }
+
+
+
+}
